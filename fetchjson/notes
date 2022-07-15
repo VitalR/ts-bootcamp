@@ -1,0 +1,9 @@
+1. first ts files should be compiled:
+tsc index.ts
+
+2. then run compiled file:
+node index.js
+
+Or include both commands in one line: 
+ts-node index.ts
+
