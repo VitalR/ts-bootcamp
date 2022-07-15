@@ -1,0 +1,15 @@
+// Tool to help run TS in the browser
+npm install -g parcel-bundler
+
+// run
+parcel index.html
+
+// Faker library - random data
+// Install faker lib
+npm install faker@5.5.3
+// Install type definition file for faker lib
+npm install @types/faker@5.5.9
+
+import { faker } from "@faker-js/faker";
+
+npm install @types/google.maps
