@@ -1,0 +1,8 @@
+% npm init -y
+
+% tsc --init
+
+% npm install nodemon concurrently
+
+// install type defenition file for all node standard modules
+% npm install @types/node
