@@ -1,0 +1,21 @@
+% npm init -y
+% tsc --init
+% npm install concurrently nodemon
+
+packege.json:
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  }
+
+tsconfig.json:
+    "rootDir": "./src",
+    "outDir": "./build",
+
+create index.ts
+    run console.log('hi')
+
+% npm install express body-parser cookie-session
+
+% npm install @types/express @types/cookie-session @types/body-parser
