@@ -1,0 +1,19 @@
+// compile ts file
+tsc file_name
+
+// create tsconfig file, file with settings to customize the compiler
+tsc --init
+
+// Watching for file changes in index.ts
+tsc -W
+
+// 
+npm init -y
+
+// Starting compilation in watch mode - build and run app 
+// nodemon - automaticaly restart/run project after compilation
+// concurrently - run multiples scripts in one command
+npm install nodemon concurrently
+
+// Starting compilation in watch mode
+npm start
